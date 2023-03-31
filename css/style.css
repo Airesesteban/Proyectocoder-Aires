@@ -123,19 +123,6 @@ header img{
 
 
 /* flex start */
-/* .container{
-    padding: 10px;
-    border: solid 1px black;
-    background-color: black;
-    display: flex;
-}
- */
-/* .box{
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-size: 3em;
-} */
 .w-25{
 	width: 25%;
 }
@@ -305,3 +292,4 @@ footer{
     }
 
 }
+/* end media queries */
