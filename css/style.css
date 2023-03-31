@@ -247,11 +247,13 @@ footer{
 
 #galeria{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 400px);
     grid-template-areas:
-    "fota fotb fotc fotc"
-    "fota fotd fotd fote";
+    "fota fotb"
+    "fota fote"
+    "fotc fotc"
+    "fotd fotd";
     margin: 10px;
     padding: 20px;
 }
@@ -278,9 +280,28 @@ footer{
 /* end contenedor grid galeria */
 
 /* inicio media queries */
-@media (width > 768px){
+@media (min-width:768px){
 
     footer{
         flex-direction: row;
     }
+    #galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 400px);
+        grid-template-areas:
+        "fota fotc fotc"
+        "fota fotd fotd"
+        "fota fotb fote";
+    }
+}
+
+@media (min-width:1200px){
+    #galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 400px);
+        grid-template-areas: 
+        "fota fotb fotc fotc"
+        "fota fotd fotd fote";
+    }
+
 }
