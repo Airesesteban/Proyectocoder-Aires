@@ -123,19 +123,19 @@ header img{
 
 
 /* flex start */
-.container{
+/* .container{
     padding: 10px;
     border: solid 1px black;
     background-color: black;
     display: flex;
 }
-
-.box{
+ */
+/* .box{
     padding: 20px;
     text-align: center;
     color: white;
     font-size: 3em;
-}
+} */
 .w-25{
 	width: 25%;
 }
@@ -248,7 +248,7 @@ footer{
 #galeria{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 400px);
+    grid-template-rows: repeat(4, 300px);
     grid-template-areas:
     "fota fotb"
     "fota fote"
