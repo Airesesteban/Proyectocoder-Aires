@@ -38,12 +38,13 @@ p{
             .botonera ul li a:hover{
                 color: black;
             }
-
+/* header */
 header img{
     width: 100%;
     height: 300px;
     object-fit: cover;
 } 
+/* end header */
 
 .text-left{
     text-align: left;
@@ -53,13 +54,7 @@ header img{
     text-align: center;
 }
 
-.bg-pattern{
-    background-image: url(../img/textura-transparente.png);
-    background-repeat: repeat;
-    background-size: 30%;
-    background-attachment: fixed;
-}
-
+/* container */
 .contenedor{
     width: 90%;
     height:auto;
@@ -113,7 +108,7 @@ header img{
             padding:10px ;
             margin-bottom: 20px;
         }
-
+/* end productos */
 
 /* botton buscar */
 .btnBuscar{
@@ -168,6 +163,7 @@ header img{
 }
 /* end flex */
 
+/* commons */
 body{
     background-color: rgb(185, 160, 132);
 }
@@ -188,6 +184,7 @@ body{
 .d-flex{
     display: flex;
 }
+/* end flex */
 
 /* footer */
 
