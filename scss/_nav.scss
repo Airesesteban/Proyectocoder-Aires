@@ -1,0 +1,18 @@
+botonera{
+    background-color: mainColor;
+    img{
+        padding-left: 10px;
+    }
+    ul{
+        li{
+            a{
+                color: $secondaryColor;
+                text-decoration: none;
+                font-size: $textMd;
+                &:hover{
+                    color: $thirdColor;
+                }
+            }
+        }
+    }
+}

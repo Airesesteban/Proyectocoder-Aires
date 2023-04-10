@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
-*{
+/* *{
     font-family: 'Fira Sans', sans-serif;
     box-sizing: border-box;
-}
+} */
 /* selectores de etiqueta * */
-h1{
+/* h1{
     font-size: 3em;
 }
 h2{
@@ -16,9 +16,9 @@ h3{
 p{
     color: black;
     font-size: 1.5em;
-}
+} */
 
-.botonera{
+/* .botonera{
     background-color: rgb(185, 160, 132);
 }
 
@@ -37,25 +37,25 @@ p{
 
             .botonera ul li a:hover{
                 color: black;
-            }
+            } */
 /* header */
-header img{
+/* header img{
     width: 100%;
     height: 300px;
     object-fit: cover;
-} 
+}  */
 /* end header */
 
-.text-left{
+/* .text-left{
     text-align: left;
 }
 
 .text-center{
     text-align: center;
-}
+} */
 
 /* container */
-.contenedor{
+/* .contenedor{
     width: 90%;
     height:auto;
     background-color: rgba(255, 255, 255,.5);
@@ -63,7 +63,7 @@ header img{
     padding: 10px 50px;
     border: solid 1px black;
     overflow-y: auto; 
-}
+} */
 
 
 /* productos */
@@ -111,14 +111,14 @@ header img{
 /* end productos */
 
 /* botton buscar */
-.btnBuscar{
+/* .btnBuscar{
     background-color: white;
     color: black;
 }
-
+ */
 
 /* flex start */
-.w-25{
+/* .w-25{
 	width: 25%;
 }
 
@@ -160,11 +160,11 @@ header img{
 
 .align-content{
 	align-content: space-between;
-}
+} */
 /* end flex */
 
 /* commons */
-body{
+/* body{
     background-color: rgb(185, 160, 132);
 }
 
@@ -183,12 +183,12 @@ body{
 
 .d-flex{
     display: flex;
-}
+} */
 /* end flex */
 
 /* footer */
 
-footer{
+/* footer{
     margin-top: 40px;
     display: flex;
     justify-content: space-around;
@@ -211,19 +211,19 @@ footer{
         color: rgb(252, 251, 250);
         font-size: 0.9em;
         margin-bottom: 4px;
-    }
+    } */
 /* end footer */
 
 /* link ver mas */
-    .linkMore{
+/*     .linkMore{
         color: black;
         font-size:  1.5em;
         text-decoration: none;
-    }
+    } */
 
 /* contenedor grid galeria */
 
-#galeria div img{
+/* #galeria div img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -260,11 +260,11 @@ footer{
 
 .fot-e{
     grid-area: fote;
-}
+} */
 /* end contenedor grid galeria */
 
 /* inicio media queries */
-@media (min-width:768px){
+/* @media (min-width:768px){
 
     footer{
         flex-direction: row;
@@ -288,5 +288,5 @@ footer{
         "fota fotd fotd fote";
     }
 
-}
+} */
 /* end media queries */

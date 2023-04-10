@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p {
+  color: black;
+  font-size: 1.5em;
+}
+
+/* header */
+header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* end header */
+/* botton buscar */
+.btnBuscar {
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: rgb(185, 160, 132);
+}
+
+.btn-colorBase {
+  background-color: rgb(185, 160, 132);
+  color: white;
+}
+
+.bg-colorBase {
+  color: rgb(185, 160, 132);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* flex start */
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.flex-direction {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-flow {
+  flex-flow: wrap-reverse row;
+}
+
+.justify-content {
+  justify-content: space-evenly;
+}
+
+.align-items {
+  align-items: flex-end;
+}
+
+.align-content {
+  align-content: space-between;
+}
+
+.contenedor {
+  width: 90%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 20px auto;
+  padding: 10px 50px;
+  border: solid 1px black;
+  overflow-y: auto;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  font-family: "Fira Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(185, 160, 132);
+  padding: 10px;
+  flex-direction: column;
+}
+footer svg {
+  fill: white;
+  width: 40px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+footer a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 4px;
+}
+
+/* link ver mas */
+.linkMore {
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+botonera {
+  background-color: mainColor;
+}
+botonera img {
+  padding-left: 10px;
+}
+botonera ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+botonera ul li a:hover {
+  color: black;
+}
+
+/* contenedor grid galeria */
+#galeria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  grid-template-areas: "fota fotb" "fota fote" "fotc fotc" "fotd fotd";
+  margin: 10px;
+  padding: 20px;
+}
+#galeria div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fot-a {
+  grid-area: fota;
+}
+
+.fot-b {
+  grid-area: fotb;
+}
+
+.fot-c {
+  grid-area: fotc;
+}
+
+.fot-d {
+  grid-area: fotd;
+}
+
+.fot-e {
+  grid-area: fote;
+}
+
+/* inicio media queries */
+@media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+  }
+  #galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    grid-template-areas: "fota fotc fotc" "fota fotd fotd" "fota fotb fote";
+  }
+}
+@media (min-width: 1200px) {
+  #galeria {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    grid-template-areas: "fota fotb fotc fotc" "fota fotd fotd fote";
+  }
+}
+/* end media queries */
+
+/*# sourceMappingURL=main.css.map */
