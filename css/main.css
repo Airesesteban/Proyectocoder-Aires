@@ -149,18 +149,21 @@ footer a {
   text-decoration: none;
 }
 
-botonera {
-  background-color: mainColor;
+.botonera {
+  background-color: rgb(185, 160, 132);
 }
-botonera img {
+.botonera img {
   padding-left: 10px;
 }
-botonera ul li a {
+.botonera ul li {
+  margin-right: 15px;
+}
+.botonera ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.5em;
 }
-botonera ul li a:hover {
+.botonera ul li a:hover {
   color: black;
 }
 
