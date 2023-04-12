@@ -1,3 +1,8 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+}
+
 h1{
     font-size: 3em;
 }
@@ -47,7 +52,7 @@ body{
 }
 
 /* flex start */
-.w-25{
+/* .w-25{
 	width: 25%;
 }
 
@@ -89,7 +94,7 @@ body{
 
 .align-content{
 	align-content: space-between;
-}
+} */
 
 .contenedor{
     width: 90%;
@@ -109,7 +114,9 @@ body{
     text-align: center;
 }
 
-*{
-    font-family: 'Fira Sans', sans-serif;
-    box-sizing: border-box;
+.bordeNegro{
+    border-color: $thirdColor;
+    border-width: 1px;
+    border-style: solid;
 }
+

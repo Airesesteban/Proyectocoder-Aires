@@ -6,11 +6,13 @@ footer{
     background-color: $mainColor;
     padding: 10px;
     flex-direction: column;
+    border-top: 3px solid $thirdColor;
     svg{
         fill: $secondaryColor;
         width: 40px;
         margin-right: 20px;
         margin-bottom: 40px;
+        margin-top: 10px;
     }
     a{
         text-decoration: none;
