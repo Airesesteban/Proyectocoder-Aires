@@ -4,13 +4,13 @@
 }
 
 h1{
-    font-size: 2.8em;
+    font-size: $textXl;
 }
 h2{
-    font-size: 2.2em;
+    font-size: $textLg;
 }
 h3{
-    font-size: 1.6em;
+    font-size: $textMd;
 }
 
 
@@ -80,4 +80,11 @@ body{
 
 p{
     @include textos(1.4em,1.4em,$thirdColor,1em)
+}
+
+.card p{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
