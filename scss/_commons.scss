@@ -4,18 +4,15 @@
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.8em;
 }
 h2{
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 h3{
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
-p{
-    color: $thirdColor;
-    font-size: $textMd;
-}
+
 
 /* header */
 header img{
@@ -51,50 +48,6 @@ body{
     display: flex;
 }
 
-/* flex start */
-/* .w-25{
-	width: 25%;
-}
-
-.w-50{
-	width: 50%;
-}
-
-.w-75{
-	width: 75%;
-}	
-
-.h-25{
-	height: 25%;
-}
-
-.h-300{
-	height: 300px;
-}
-
-.flex-direction{
-	flex-direction: row;
-}
-
-.flex-wrap{
-	flex-wrap: wrap-reverse;
-}
-
-.flex-flow{
-	flex-flow: wrap-reverse row;
-}
-
-.justify-content{
-	justify-content: space-evenly;
-}
-
-.align-items{
-	align-items: flex-end;
-}
-
-.align-content{
-	align-content: space-between;
-} */
 
 .contenedor{
     width: 90%;
@@ -104,6 +57,11 @@ body{
     padding: 10px 50px;
     border: solid 1px $thirdColor;
     overflow-y: auto; 
+}
+
+.contenedor-secondary{
+    @extend .contenedor;
+    padding: 10px 40px;
 }
 
 .text-left{
@@ -120,3 +78,6 @@ body{
     border-style: solid;
 }
 
+p{
+    @include textos(1.4em,1.4em,$thirdColor,1em)
+}

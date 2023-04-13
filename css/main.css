@@ -5,20 +5,15 @@
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 h3 {
-  font-size: 1.8em;
-}
-
-p {
-  color: black;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 /* header */
@@ -56,51 +51,7 @@ body {
   display: flex;
 }
 
-/* flex start */
-/* .w-25{
-	width: 25%;
-}
-
-.w-50{
-	width: 50%;
-}
-
-.w-75{
-	width: 75%;
-}	
-
-.h-25{
-	height: 25%;
-}
-
-.h-300{
-	height: 300px;
-}
-
-.flex-direction{
-	flex-direction: row;
-}
-
-.flex-wrap{
-	flex-wrap: wrap-reverse;
-}
-
-.flex-flow{
-	flex-flow: wrap-reverse row;
-}
-
-.justify-content{
-	justify-content: space-evenly;
-}
-
-.align-items{
-	align-items: flex-end;
-}
-
-.align-content{
-	align-content: space-between;
-} */
-.contenedor {
+.contenedor, .contenedor-secondary {
   width: 90%;
   height: auto;
   background-color: rgba(255, 255, 255, 0.5);
@@ -108,6 +59,10 @@ body {
   padding: 10px 50px;
   border: solid 1px black;
   overflow-y: auto;
+}
+
+.contenedor-secondary {
+  padding: 10px 40px;
 }
 
 .text-left {
@@ -122,6 +77,13 @@ body {
   border-color: black;
   border-width: 1px;
   border-style: solid;
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  color: black;
+  padding: 1em;
 }
 
 textarea {
@@ -151,6 +113,9 @@ footer a {
   color: white;
   font-size: 1em;
   margin-bottom: 4px;
+}
+footer a:hover {
+  color: black;
 }
 
 /* link ver mas */

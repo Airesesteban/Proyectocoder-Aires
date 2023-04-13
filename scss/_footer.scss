@@ -19,6 +19,9 @@ footer{
         display: block;
         color: $secondaryColor;
         font-size: $textSm;
-        margin-bottom: 4px;  
+        margin-bottom: 4px;
+        &:hover{
+            color: $thirdColor;
+        }  
     }
 }
