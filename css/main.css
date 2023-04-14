@@ -125,6 +125,7 @@ footer a:hover {
   color: black;
 }
 
+/* animacion para iconos rrss */
 .shake-left-right:hover {
   animation: shake-left-right 1.1s linear both;
 }
