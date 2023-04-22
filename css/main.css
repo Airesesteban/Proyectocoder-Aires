@@ -84,6 +84,8 @@ p {
   line-height: 1.4em;
   color: black;
   padding: 1em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .card p {
@@ -99,6 +101,10 @@ p {
 
 textarea {
   resize: none;
+}
+
+form label {
+  font-weight: bold;
 }
 
 footer {
@@ -172,12 +178,12 @@ footer a:hover {
   margin-right: 15px;
 }
 .botonera ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.5em;
 }
 .botonera ul li a:hover {
-  color: black;
+  color: white;
 }
 
 /* contenedor grid galeria */

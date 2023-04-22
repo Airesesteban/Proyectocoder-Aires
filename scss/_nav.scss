@@ -7,11 +7,11 @@
         li{
             margin-right: 15px;
             a{
-                color: $secondaryColor;
+                color: $thirdColor;
                 text-decoration: none;
                 font-size: $textMd;
                 &:hover{
-                    color: $thirdColor;
+                    color: $secondaryColor;
                 }
             }
         }

@@ -79,7 +79,9 @@ body{
 }
 
 p{
-    @include textos(1.4em,1.4em,$thirdColor,1em)
+    @include textos(1.4em,1.4em,$thirdColor,1em);
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .card p{
