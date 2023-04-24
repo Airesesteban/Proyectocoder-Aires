@@ -227,6 +227,14 @@ footer a:hover {
   grid-area: fote;
 }
 
+p a {
+  color: black;
+  text-decoration: none;
+}
+p a:hover {
+  color: white;
+}
+
 /* inicio media queries */
 @media (min-width: 768px) {
   footer {

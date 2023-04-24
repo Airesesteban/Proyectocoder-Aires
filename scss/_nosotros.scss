@@ -44,3 +44,13 @@
 .fot-e{
     grid-area: fote;
 }
+
+p{
+    a{
+        color: $thirdColor;
+        text-decoration: none;
+        &:hover{
+            color: $secondaryColor;
+        }
+    }
+}
